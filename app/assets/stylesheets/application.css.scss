@@ -1,0 +1,173 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat);
+
+
+// font-family: 'Josefin Sans', sans-serif;
+//
+// font-family: 'Lato', sans-serif;
+//
+// font-family: 'Montserrat', sans-serif;
+
+
+
+// body {
+//   background: url(pw_maze_black) no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// }
+
+body{
+  background-color: #000;
+}
+
+.lead{
+  padding: 0 25%;
+}
+
+.fa-5x{
+  font-size: 7em;
+  color:#77b800;
+}
+.box{
+    width: 320px;
+    height: 320px;
+    padding: 10px;
+    // border: 5px solid gray;
+    margin: 0;
+    background-color: #222;
+}
+
+.homegrown{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42pt;
+  font-weight:bold;
+  color:#77b800;
+}
+.prop{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 38pt;
+  color:#77b800;
+}
+
+.tagline{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22pt;
+  color:white;
+}
+
+.button{
+  padding:10%;
+}
+.btn-primary,
+.btn-primary a,
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: #77b800;
+  color:#000;
+  border-color: #77b800;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.box h2{
+  color:#fff;
+  text-align:center;
+  font-size: 20pt;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #fff;
+}
+.box p{
+  color: #fff;
+  font-size: 14pt;
+}
+//
+//
+// .bg {
+//   background: url('3.png') no-repeat center center;
+//   position: fixed;
+//   width: 100%;
+//   height: 350px; /*same height as jumbotron */
+//   top:0;
+//   left:0;
+//   z-index: -1;
+// }
+//
+// .jumbotron {
+//   // height: 350px;
+//   color: white;
+//   text-shadow: #444 0 1px 1px;
+//   background:transparent;
+// }
+
+
+
+// .top {
+//     position:absolute;
+//     left:0; right:0;
+//     height: 92px;
+// }
+// .left {
+//     position:absolute;
+//     left:0; top:0; bottom: 0;
+//     width: 30%;
+//     background: url('3.png') no-repeat center center;
+//     // position: fixed;
+//     // width: 100%;
+//     height: auto;
+//     // top:0;
+//     // left:0;
+//     // z-index: -1;
+// }
+.main {
+    position: absolute;
+   top:70px;  bottom:0;
+}
+
+
+.sidebar {
+    position: fixed;
+    background: url('3.png') no-repeat center center;
+    top: -70px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #000;
+    border-right: 1px solid #eee;
+    bottom: 60px;
+}
+
+.welcome{
+  margin-left: 200px;
+}
+
+.welcome .home{
+  width:150px;
+  height:150px;
+}
+
+/* footer */
+footer{
+  background: #222;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+  padding:20px;
+}
+
+@media (max-width: 768px){
+.sidebar {
+    display:none;
+}
+.welcome{
+  margin-left:50px;
+}
+}
